@@ -1,0 +1,9 @@
+{
+  "name": "supermechs-legacy",
+  "version": "1.0.0",
+  "description": "Legacy style SuperMechs project",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
