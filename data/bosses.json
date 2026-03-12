@@ -1,0 +1,20 @@
+const express = require("express");
+const app = express();
+
+app.use(express.json());
+
+// load boss data
+const bosses = require("../data/bosses.json");
+
+app.get("/", (req,res)=>{
+  res.send("SuperMechs Legacy Server Running");
+});
+
+// get all bosses
+app.get("/bosses",(req,res)=>{
+  res.json(bosses);
+});
+
+app.listen(3000, ()=>{
+  console.log("Server started on port 3000");
+});
