@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Stone Guardian",
+    "region": "Rocky Mountains",
+    "coins": 5000,
+    "tokens": 10
+  },
+  {
+    "name": "Infernal Machine",
+    "region": "Valley of Fire",
+    "coins": 7000,
+    "tokens": 25
+  }
+]
